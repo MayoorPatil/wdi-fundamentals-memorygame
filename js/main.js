@@ -28,7 +28,7 @@ var checkForMatch = function (cardElement) {
     if ( cardsInPlay[0] === cardsInPlay[1]) {
       alert("You have found a match!");
       score = score + 1;
-      document.getElementById('score').innerHTML = "Score: " + score;
+      document.getElementById('score').innerHTML = "<b>Score: " + score + "</b>";
     } else {
       alert("Sorry, try again.");
     }
